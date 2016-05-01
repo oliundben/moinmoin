@@ -52,6 +52,16 @@ nav ul li a {
     text-decoration: none;
 }
 
+footer {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
 .content {
     width: 50%;
     position: relative;
