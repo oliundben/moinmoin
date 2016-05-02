@@ -90,12 +90,25 @@ footer a {
 }
 
 .card > h2 {
+    color: rgba(0,0,0,0.84)
     margin-top: 10px;
 }
 
 #rubriken .titel {
     font-weight: bold;
     display: block;
+}
+
+#preise table tr td ol {
+    color: rgba(0,0,0,0.84);
+}
+
+#preise table tr td {
+    width: 50%;
+}
+
+#preise table tr td img {
+    width: 100%;
 }
 
 @media (max-width: 440px) {
@@ -105,6 +118,10 @@ footer a {
 
     body nav ul li {
         margin-right: 5px;
+    }
+
+    .title-agb {
+        font-size: 1.5em;
     }
 }
 
