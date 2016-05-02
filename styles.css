@@ -98,6 +98,18 @@ footer a {
     display: block;
 }
 
+#preise table tr td ol {
+    color: rgba(0,0,0,0.84);
+}
+
+#preise table tr td {
+    width: 50%;
+}
+
+#preise table tr td {
+    width: 100%;
+}
+
 @media (max-width: 440px) {
     html body .content .title h1 {
         font-size: 1.5em;
