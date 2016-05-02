@@ -90,8 +90,8 @@ footer a {
 }
 
 .card > h2 {
-    color: rgba(0,0,0,0.84)
-    margin-top: 10px;
+    color: rgba(0,0,0,0.84);
+    margin: 10px 0px;
 }
 
 #rubriken .titel {
@@ -99,16 +99,16 @@ footer a {
     display: block;
 }
 
-#preise table tr td ol {
-    color: rgba(0,0,0,0.84);
-}
-
-#preise table tr td {
+.preise .img {
     width: 50%;
 }
 
-#preise table tr td img {
+.preise div .img img {
     width: 100%;
+}
+
+.preise table tr td ol {
+    color: rgba(0,0,0,0.84);
 }
 
 @media (max-width: 440px) {
