@@ -1,0 +1,15 @@
+nav {
+    display: none;
+}
+
+.content {
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+}
+
+.card {
+    box-shadow: none;
+}
