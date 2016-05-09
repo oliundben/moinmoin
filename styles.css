@@ -80,6 +80,11 @@ footer a {
     text-align: center;
     margin-bottom: 30px;
 }
+
+#agb ol ol {
+    list-style-type: lower-alpha;
+}
+
 .card {
     background-color: #fff;
     margin-bottom: 40px;
