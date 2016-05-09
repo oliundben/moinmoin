@@ -86,7 +86,6 @@ footer a {
     color: rgba(0,0,0,0.84);
     padding: 10px 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    overflow: scroll;
 }
 
 .card > h2 {
@@ -97,6 +96,10 @@ footer a {
 #rubriken .titel {
     font-weight: bold;
     display: block;
+}
+
+#rubriken ol li {
+    margin-bottom: 10px;
 }
 
 .preise .img {
