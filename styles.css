@@ -119,6 +119,24 @@ footer a {
     color: rgba(0,0,0,0.84);
 }
 
+.important-texts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+    text-align: center;
+}
+
+.important-texts .card {
+    display: inline;
+    width: 30%;
+}
+
+.important-texts #auflage {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
 @media (max-width: 440px) {
     html body .content .title h1 {
         font-size: 1.5em;
