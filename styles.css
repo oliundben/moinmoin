@@ -94,6 +94,10 @@ footer a {
     margin-top: 0.75rem;
 }
 
+#agb ol ol {
+    list-style-type: lower-alpha;
+}
+
 .card {
     background-color: #fff;
     margin-bottom: 40px;
