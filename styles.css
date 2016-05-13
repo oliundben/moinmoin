@@ -6,6 +6,10 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+.lowercase {
+    text-transform: lowercase !important;
+}
+
 .dpn {
     display: none !important;
 }
