@@ -27,26 +27,10 @@ var show = function () {
     facts[current].classList.remove('invisible')
 }
 
-var crossfade = function (from, to, time) {
-    from.style.opacity = 1
-    to.style.opacity = 0
-    var count = 0
-    var interval = setInterval(function () {
-        count++
-        var offset = count*25/time
-        console.log(offset)
-        from.style.opacity = 1 - offset
-        to.style.opacity = offset
-    }, 25)
-    var timeout = setTimeout(function () {
-        clearInterval(interval)
-    }, time)
-}
-
 var next = function () {
     var old = current
     current = (current + 1) % facts.length
-    crossfade(facts[old], facts[current], 500)
+    show(current)
 }
 
 init()
