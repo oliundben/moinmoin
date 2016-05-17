@@ -173,16 +173,17 @@ footer a {
     position: absolute;
     z-index: 1;
     top: 0;
+    color: rgba(255, 255, 255, 0.5)
 }
 
 #facts .prev {
     content: "<";
-    left: 0;
+    left: 5;
 }
 
 #facts .next {
     content: ">";
-    right: 0;
+    right: 5;
 }
 
 #facts div {
