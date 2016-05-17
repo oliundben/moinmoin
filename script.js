@@ -53,3 +53,23 @@ factBtns.prev.onclick = prev
 factBtns.next.onclick = next
 
 init()
+
+
+
+// expand/collapse der weg ihrer anzeige
+var elements = {
+    expand: document.querySelector('#weg-ihrer-anzeige .zeigen'),
+    collapse: document.querySelector('#weg-ihrer-anzeige .verstecken'),
+    expanded: document.querySelector('#weg-ihrer-anzeige .expanded'),
+    collapsed: document.querySelector('#weg-ihrer-anzeige .collapsed')
+}
+
+elements.expand.onclick = function () {
+    elements.collapsed.style.height = "0%"
+    elements.expanded.style.height = "95%";
+}
+
+elements.collapse.onclick = function () {
+    elements.collapsed.style.height = "100%"
+    elements.expanded.style.height = "0%";
+}
