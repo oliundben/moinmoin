@@ -137,6 +137,10 @@ footer a {
     color: rgba(0,0,0,0.84);
 }
 
+.preise table tr td ol li span {
+    display: block;
+}
+
 .important-texts {
     display: -webkit-box;
     display: -ms-flexbox;
