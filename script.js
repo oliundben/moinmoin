@@ -66,7 +66,7 @@ var elements = {
 
 elements.expand.onclick = function () {
     elements.collapsed.style.height = '0%'
-    elements.expanded.style.height = 'intial'
+    elements.expanded.style.height = 'initial'
 }
 
 elements.collapse.onclick = function () {
