@@ -168,6 +168,23 @@ footer a {
     margin-bottom: 40px;
 }
 
+#facts .prev,
+#facts .next {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+#facts .prev {
+    content: "<";
+    left: 0;
+}
+
+#facts .next {
+    content: ">";
+    right: 0;
+}
+
 #facts div {
     position: absolute;
     top: 0;
