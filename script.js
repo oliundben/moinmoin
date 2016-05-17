@@ -20,9 +20,10 @@ var factBtns = {
 }
 
 var current = 0;
+var timer;
+
 var init = function () {
     show()
-    var timer = setInterval(next, 4000)
 }
 
 var show = function () {
@@ -30,6 +31,8 @@ var show = function () {
         facts[i].classList.add('invisible')
     }
     facts[current].classList.remove('invisible')
+    clearTimeout(timer)
+    timer = setTimeout(next, 4000)
 }
 
 var next = function () {
