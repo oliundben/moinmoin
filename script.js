@@ -13,11 +13,17 @@ window.addEventListener("hashchange", shiftWindow);
 })()
 
 // doing the image carousel stuff
-var facts = document.querySelector('#facts').children
-var current = 0
+var facts = document.querySelectorAll('#facts div')
+var factBtns = {
+    next: document.querySelector('#facts .next'),
+    prev: document.querySelector('#facts .prev')
+}
+
+var current = 0;
+var timer;
+
 var init = function () {
     show()
-    var timer = setInterval(next, 4000)
 }
 
 var show = function () {
@@ -25,12 +31,25 @@ var show = function () {
         facts[i].classList.add('invisible')
     }
     facts[current].classList.remove('invisible')
+    clearTimeout(timer)
+    timer = setTimeout(next, 4000)
 }
 
 var next = function () {
-    var old = current
+    console.log('next')
     current = (current + 1) % facts.length
-    show(current)
+    show()
 }
+
+var prev = function () {
+    console.log('prev')
+    current = current - 1 >= 0 ? current - 1 : facts.length - 1
+    show()
+}
+
+
+
+factBtns.prev.onclick = prev
+factBtns.next.onclick = next
 
 init()
