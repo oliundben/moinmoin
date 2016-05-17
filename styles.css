@@ -225,6 +225,15 @@ footer a {
     margin-top: 5px;
 }
 
+#weg-ihrer-anzeige div {
+    transition: all 0.8s;
+    overflow: hidden;
+}
+
+#weg-ihrer-anzeige .expanded {
+    height: 0;
+}
+
 @media (max-width: 440px) {
     html body .content .title h1 {
         font-size: 1.5em;
