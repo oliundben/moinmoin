@@ -26,6 +26,7 @@ a.btn {
     padding: 11px 16px;
     font-size: 14px;
     text-transform: uppercase;
+    display: inline-block;
 }
 
 .float-right {
@@ -138,17 +139,14 @@ footer a {
 
 .important-texts {
     display: -webkit-box;
-    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     font-size: larger;
     text-align: center;
 }
@@ -174,8 +172,13 @@ footer a {
     z-index: 1;
     top: 50%;
     font-size: 2em;
-    transform: translateY(-50%);
-    color: rgba(255, 255, 255, 0.5)
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 #facts .prev {
@@ -193,6 +196,7 @@ footer a {
     top: 0;
     left: 0;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
 
@@ -202,6 +206,19 @@ footer a {
 
 #facts div img {
     width: 100%;
+}
+
+#informationen-zum-druck table {
+    color: rgba(0, 0, 0, 0.84);
+    border-spacing: 10px;
+}
+
+#mediadaten h3 {
+    margin-bottom: 5px;
+}
+
+#mediadaten p {
+    margin-top: 5px;
 }
 
 @media (max-width: 440px) {
