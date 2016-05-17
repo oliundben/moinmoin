@@ -40,7 +40,7 @@ var next = function () {
 
 var prev = function () {
     console.log('prev')
-    current = (current - 1) % facts.length
+    current = current - 1 >= 0 ? current - 1 : facts.length - 1
     show()
 }
 
