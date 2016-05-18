@@ -103,7 +103,7 @@ footer a {
     list-style-type: lower-alpha;
 }
 
-.card {
+div.card {
     background-color: #fff;
     margin-bottom: 40px;
     color: rgba(0,0,0,0.84);
@@ -238,6 +238,15 @@ footer a {
     max-height: 100%;
 }
 
+.preisuebersicht table {
+    width: 100%;
+    color: rgba(0,0,0,0.84);
+    border-spacing: 10px;
+}
+
+.preisuebersicht table tr th {
+    text-align: left;
+}
 @media (max-width: 440px) {
     html body .content .title h1 {
         font-size: 1.5em;
