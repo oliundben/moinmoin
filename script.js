@@ -70,7 +70,6 @@ elements.expand.onclick = function () {
 }
 
 elements.collapse.onclick = function () {
-    console.log('verstecken')
     elements.expanded.style.maxHeight = '0%'
     elements.collapsed.style.maxHeight = '100%'
 }
