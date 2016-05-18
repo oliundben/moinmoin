@@ -66,10 +66,11 @@ var elements = {
 
 elements.expand.onclick = function () {
     elements.collapsed.style.maxHeight = '0%'
-    elements.expanded.style.maxHeight = '100%'
+    elements.expanded.style.maxHeight = '200%'
 }
 
 elements.collapse.onclick = function () {
+    console.log('verstecken')
     elements.expanded.style.maxHeight = '0%'
     elements.collapsed.style.maxHeight = '100%'
 }
