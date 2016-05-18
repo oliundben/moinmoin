@@ -65,11 +65,11 @@ var elements = {
 }
 
 elements.expand.onclick = function () {
-    elements.collapsed.style.height = '0%'
-    elements.expanded.style.height = 'initial'
+    elements.collapsed.style.maxHeight = '0%'
+    elements.expanded.style.maxHeight = '100%'
 }
 
 elements.collapse.onclick = function () {
-    elements.collapsed.style.height = 'initial'
-    elements.expanded.style.height = '0%'
+    elements.expanded.style.maxHeight = '0%'
+    elements.collapsed.style.maxHeight = '100%'
 }

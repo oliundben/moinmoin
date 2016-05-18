@@ -231,7 +231,11 @@ footer a {
 }
 
 #weg-ihrer-anzeige .expanded {
-    height: 0;
+    max-height: 0%;
+}
+
+#weg-ihrer-anzeige .collapsed {
+    max-height: 100%;
 }
 
 @media (max-width: 440px) {
