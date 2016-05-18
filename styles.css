@@ -18,6 +18,10 @@ body {
     opacity: 0;
 }
 
+a {
+    color: #00BCD4;
+}
+
 a.btn {
     border-radius: 2px;
     background-color: #00BCD4;
