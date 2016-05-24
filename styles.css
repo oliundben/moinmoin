@@ -238,6 +238,7 @@ div.card {
 }
 
 #weg-ihrer-anzeige div {
+    -webkit-transition: all 0.8s;
     transition: all 0.8s;
     overflow: hidden;
 }
@@ -259,6 +260,16 @@ div.card {
 .preisuebersicht table tr th {
     text-align: left;
 }
+
+#mediadaten img {
+    width: 75%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+
+
 @media (max-width: 440px) {
     html body .content .title h1 {
         font-size: 1.5em;
