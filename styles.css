@@ -22,6 +22,10 @@ body table {
     opacity: 0;
 }
 
+.w100 {
+    width: 100% !important;
+}
+
 a {
     color: #00BCD4;
 }
